@@ -3,8 +3,8 @@
     <h1>Todo List</h1>
 
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Versi 1</router-link> |
+      <router-link to="/versi2">versi 2</router-link>
     </div>
   </header>
 </template>

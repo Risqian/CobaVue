@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import Todos from "../components/Todos";
-import AddTodo from "../components/AddTodo";
+import Todos from "../components/versi1/Todos";
+import AddTodo from "../components/versi1/AddTodo";
 import axios from "axios";
 
 export default {
