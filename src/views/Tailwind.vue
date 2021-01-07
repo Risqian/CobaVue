@@ -7,7 +7,7 @@
                     <div class="flex flex-row items-center justify-between">
                         <div class="flex flex-col">
                             <div class="text-xs uppercase font-light text-gray-500">
-                                Customers
+                                Dandi Pangestu
                             </div>
                             <div class="text-xl font-bold">
                                 23

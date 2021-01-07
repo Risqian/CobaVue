@@ -1,9 +1,29 @@
 <template>
   <div id="app">
     <div class="container">
-      <AddTodo />
-      <FilterTodos />
-      <Todos />
+      <div class="mt-10 sm:mt-0">
+        <div class="md:grid md:grid-cols-1 md:gap-6">
+          <div class="mt-5 md:col-span-2">
+            <div class="shadow overflow-hidden sm:rounded-md">
+              <div class="px-4 py-5 bg-white sm:p-6">
+                <AddTodo />
+                <FilterTodos />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10 sm:mt-0">
+        <div class="md:grid md:grid-cols-1 md:gap-6">
+          <div class="mt-5 md:col-span-2">
+            <div class="shadow overflow-hidden sm:rounded-md">
+              <div class="px-4 py-5 bg-white sm:p-6">
+                <Todos />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -24,7 +44,7 @@ export default {
 </script>
 
 <style>
-body {
+/* body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   line-height: 1.6;
   background: #e8f7f0;
@@ -35,5 +55,5 @@ body {
   margin: auto;
   overflow: auto;
   padding: 0 2rem;
-}
+} */
 </style>
