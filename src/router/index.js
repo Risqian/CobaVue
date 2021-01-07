@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-
+import Tailwind from '../views/Tailwind.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -9,6 +9,11 @@ const routes = [
     path: '/',
     name: 'Versi 1',
     component: Home
+  },
+  {
+    path: '/tailwind',
+    name: 'TAILWIND',
+    component: Tailwind
   },
   {
     path: '/versi2',
